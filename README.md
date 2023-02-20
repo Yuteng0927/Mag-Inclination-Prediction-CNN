@@ -18,5 +18,6 @@ The Earth's magnetic field can be represented by a three-dimensional vector. A t
 * Load data
 * Simple data transformation
 * Data Visualization
+
 ![image](https://github.com/Yuteng0927/Deep-Learning-Project/blob/main/Image/Data_Visualization.png)
 
