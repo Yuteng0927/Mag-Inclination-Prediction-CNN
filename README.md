@@ -47,6 +47,7 @@ The magnetic data measured over this area is shown below (left). We observe stro
 ![image](https://drive.google.com/uc?id=1TJRzFz0Uv8yVLGfltkq6RZEd_ENgl3WJ)
 
 * Read the magnetic data
+
 ![image](https://github.com/Yuteng0927/Deep-Learning-Project/blob/main/Image/Predict_fieldData.png)
 * Make prediction
 The predicted inclination is: (0, 10]
