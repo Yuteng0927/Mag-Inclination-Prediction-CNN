@@ -21,3 +21,32 @@ The Earth's magnetic field can be represented by a three-dimensional vector. A t
 
 ![image](https://github.com/Yuteng0927/Deep-Learning-Project/blob/main/Image/Data_Visualization.png)
 
+## Data Training and Prediction
+* Prepare training, validation and test data
+* Build and train your CNNs
+* Check learning curves
+
+![image](https://github.com/Yuteng0927/Deep-Learning-Project/blob/main/Image/Fitting_curve.png)
+
+1. The accuracy and val_accuracy increase.
+2. The loss and val_loss decrease.
+3. The curves of training and validation data sets are pretty close, which represent our trained model is good, neither underfitting nor overfitting the data.
+
+* Check the accuracies on test data maps
+loss: 0.3626 - accuracy: 0.8440
+* Make predictions on synthetic test data maps
+
+![image](https://github.com/Yuteng0927/Deep-Learning-Project/blob/main/Image/Prediction.png)
+
+## Make predictions on field data
+Geoloy 101: Norite is a mafic intrusive igneous rock composed largely of the calcium-rich plagioclase labradorite, orthopyroxene, and olivine. The name norite is derived from Norge, the Norwegian name for Norway. Norite also known as orthopyroxene gabbro (https://en.wikipedia.org/wiki/Norite). Here is a picture of norite.
+![image](https://drive.google.com/uc?id=1j_kpdMFM6BmmJQRzPPmOIsvpIGhY0kmJ)
+
+The magnetic data measured over this area is shown below (left). We observe strong magnetic anomalies resulting from the norite intrusions. In our project, we will focus on the anomalies located in the northwest region, which are shown below (right).
+![image](https://drive.google.com/uc?id=1A8NmHyxM1CZ6acqhswX9cjfHo9EmCX5S)
+![image](https://drive.google.com/uc?id=1TJRzFz0Uv8yVLGfltkq6RZEd_ENgl3WJ)
+
+* Read the magnetic data
+* Make prediction
+The predicted inclination is: (0, 10]
+
