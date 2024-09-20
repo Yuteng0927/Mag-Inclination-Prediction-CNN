@@ -1,5 +1,4 @@
-# Deep-Learning-Project
-## Magnetic Maps Inclination Prediction using convolutional neural networks (CNNs)
+# Magnetic Maps Inclination Prediction using convolutional neural networks (CNNs)
 
 ## Overview
 The purpose of this Project is to train a CNN predictor that can predict inclinations of the magnetization of a source body in the subsurface, given a magnetic data map. 
